@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PWA DISPERINDAGKOP</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <link rel="manifest" href="/manifest.json">
+  <!--IOS SUPPORT-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/icon-152x152.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#84d412">
+  <meta name="theme-color" content="#84d412">
+  <link href="/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+</head>
+<body>
+  <!-- nav -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="/">DISPERIN<span>DAGKOP</span></a>
+      <span class="right grey-text text-darken-1">
+        <a href="#"><i class="material-icons sidenav-trigger">account_circle</i></a>
+      </span>
+    </div>
+  </nav>
+  <!--isi-->
+  <div class="w3-container w3-padding-16 w3-center">
+      <div class="w3-border">
+        <div class="w3-container w3-margin w3-green w3-padding-large">
+          <br>
+          <img src="/img/icons/2.png" class="w3-round-small" alt="Norway" style="height: 100px;">
+          <h4>Selamat Datang Di Portal Website DISPERINDAGKOP KAB.SINTANG</h4>
+          <button onclick="myFunction('Demo1')" class="w3-button w3-center w3-light-grey">Get Started App</button>  
+        </div>
+      </div>
+  </div>
+  <div class="w3-container w3-center">
+    <div id="Demo1" class="w3-hide w3-container w3-animate-top">
+        <div class="w3-row">
+            <div class="w3-col s4 w3-middle">
+                    <a href="#"><button class="tekan"><i class="a material-icons">insert_chart</i></button></a>
+                    <div class="df">Beranda</div>
+            </div>
+            <div class="w3-col s4 w3-center">
+                    <a href="#"><button class="tekan"><i class="b material-icons">insert_chart</i></button></a>
+                    <div class="df">Daftar IKM Resmi</div>
+            </div>
+            <div class="w3-col s4 w3-center">
+                    <a href="#"><button class="tekan"><i class="c material-icons">build</i></button></a>
+                    <div class="df">IKM Penerima Bantuan</div>
+            </div>
+          </div>      
+          <!--line2getstarted-->
+          <div class="w3-row">
+            <div class="w3-col s4 w3-center">
+              <a href="#"><button class="tekan"><i class="d material-icons">insert_chart</i></button></a>
+                    <div class="df">Program Kerja</div>
+            </div>
+            <div class="w3-col s4 w3-center">
+              <a href="#"><button class="tekan"><i class="e material-icons">insert_chart</i></button></a>
+                    <div class="df">Tentang Kami</div>
+            </div>
+            <div class="w3-col s4 w3-center">
+              <a href="#"><button class="tekan"><i class="f material-icons">insert_chart</i></button></a>
+                    <div class="df">Kontak Kami</div>
+            </div>
+          </div>      
+    </div>
+  <!--all script-->
+  <script src="/js/app.js"></script>
+  <script src="/js/ui.js"></script>
+  <!--button Yuk jelajahi-->
+  <script>
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>
